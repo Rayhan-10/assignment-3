@@ -33,12 +33,11 @@
                     rgb(248, 204, 251) 1.286%,
                     rgb(172, 210, 253) 100%)
         }
+
         .background2 {
-            background: linear-gradient(
-                    134.71deg,
+            background: linear-gradient(134.71deg,
                     rgb(255, 249, 244) 1.511%,
-                    rgb(249, 223, 138) 100%
-                  );
+                    rgb(249, 223, 138) 100%);
         }
     </style>
 </head>
@@ -71,10 +70,12 @@
     </header>
     <main class="">
         <!-- Banner -->
-        <section class="md:w-[90%] mx-auto mt-5 bg-[url(assets/cat-big.png)] pb-24 lg:h-[100vh] bg-bottom bg-contain bg-no-repeat mb-10">
+        <section
+            class="md:w-[90%] mx-auto mt-5 bg-[url(assets/cat-big.png)] pb-24 lg:h-[100vh] bg-bottom bg-contain bg-no-repeat mb-10">
             <div class="space-y-2 px-3">
-                <h1 class="adlam font-bold text-3xl lg:text-5xl text-[#111111]">Pamper Your Pet, <br> Because <span class="animate-pulse">They
-                    Deserve</span> <br> the Bes</h1>
+                <h1 class="adlam font-bold text-3xl lg:text-5xl text-[#111111]">Pamper Your Pet, <br> Because <span
+                        class="animate-pulse">They
+                        Deserve</span> <br> the Bes</h1>
                 <p class="sora font-medium text-sm  lg:text-lg text-[#111111] opacity-70">Discover a world of treats,
                     toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!
                 </p>
@@ -245,13 +246,34 @@
                 </div>
             </div>
         </section>
+
+        <!-- Extra section -->
+        <section class="w-[90%] max-auto md:w-[90%] mx-auto mt-5">
+            <div class="hero min-h-screen"
+                style="background-image: url(assets/Hero2.jpg);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-neutral-content text-center">
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-3xl md:text-6xl font-extrabold">A Paradise for Your Precious Pets</h1>
+                        <p class="mb-5 text-lg">
+                            Step into a world of luxury, where every wag, purr, and chirp is met with love, care, and
+                            elegance.
+                            From gourmet treats to designer accessories—because your pet deserves nothing but the best.
+                        </p>
+                        <button class="btn btn-primary btn-sm md:btn-lg bg-yellow-600">Spoil Your Pet Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
         <!-- low price  -->
-        <section class="max-w-[1440px] w-11/12 mx-auto">
+        <section class="max-w-[1440px] w-11/12 mx-auto mt-5">
             <h3 class="lg:text-2xl font-bold text-xl mb-7 mt-5 lg:mt-0">
                 Everyday Low Price
             </h3>
             <div class="lg:flex-row flex flex-col md:gap-5">
-                <div class="background1  flex flex-col md:flex-row md:flex-1 rounded-lg md:items-center justify-between p-5 md:p-10 md:px-30">
+                <div
+                    class="background1  flex flex-col md:flex-row md:flex-1 rounded-lg md:items-center justify-between p-5 md:p-10 md:px-30">
                     <div>
                         <p class="hidden md:flex">Under Price</p>
                         <h2 class=" text-xl font-bold">Pet Grooming Mitt</h2>
@@ -279,20 +301,20 @@
     <!-- footer -->
     <div class="m-[35px] md:m-0">
         <section
-        class="md:max-w-[1440px]  md:mx-auto md:w-[1120px] bg-[#FFF9F4] lg:px-10 px-3 py-2 lg:py-6 rounded-lg lg:gap-20 gap-4 flex flex-col lg:flex-row -mb-64 md:-mb-40 relative z-50 md:mt-10 ">
-        <div class="text-center">
-            <img class="w-52 mx-auto" src="./assets/cute-pet-mid.png" alt="" />
-        </div>
+            class="md:max-w-[1440px]  md:mx-auto md:w-[1120px] bg-[#FFF9F4] lg:px-10 px-3 py-2 lg:py-6 rounded-lg lg:gap-20 gap-4 flex flex-col lg:flex-row -mb-64 md:-mb-40 relative z-50 md:mt-10 ">
+            <div class="text-center">
+                <img class="w-52 mx-auto" src="./assets/cute-pet-mid.png" alt="" />
+            </div>
 
-        <div class="flex flex-col gap-3 lg:gap-5 lg:items-start items-center text-center lg:text-left">
-            <h3 class=" text-2xl md:text-3xl font-bold">Get Pawsome News!</h3>
-            <p class="text-gray-700 font-medium">
-                Exclusive training tips, ticks, product deals and more.
-            </p>
-            <input type="text" class="bg-white py-2 w-full px-4" placeholder="Enter Email" />
-            <button class="btn btn-warning">Subscribe</button>
-        </div>
-    </section>
+            <div class="flex flex-col gap-3 lg:gap-5 lg:items-start items-center text-center lg:text-left">
+                <h3 class=" text-2xl md:text-3xl font-bold">Get Pawsome News!</h3>
+                <p class="text-gray-700 font-medium">
+                    Exclusive training tips, ticks, product deals and more.
+                </p>
+                <input type="text" class="bg-white py-2 w-full px-4" placeholder="Enter Email" />
+                <button class="btn btn-warning">Subscribe</button>
+            </div>
+        </section>
     </div>
 
     <footer class="bg-[#FFDC2680]/50 pt-52 md:pt-48 z-10">
