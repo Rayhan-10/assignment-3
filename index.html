@@ -39,6 +39,23 @@
                     rgb(255, 249, 244) 1.511%,
                     rgb(249, 223, 138) 100%);
         }
+
+        .animation{
+            animation-duration: 3s;
+            animation-name: slide-in;
+        }
+
+        @keyframes slide-in {
+            from {
+                translate: 150vw 0;
+                scale: 200% 1;
+            }
+
+            to {
+                translate: 0 0;
+                scale: 100% 1;
+            }
+        }
     </style>
 </head>
 <!--  -->
@@ -73,7 +90,7 @@
         <section
             class="md:w-[90%] mx-auto mt-5 bg-[url(assets/cat-big.png)] pb-24 lg:h-[100vh] bg-bottom bg-contain bg-no-repeat mb-10">
             <div class="space-y-2 px-3">
-                <h1 class="adlam font-bold text-3xl lg:text-5xl text-[#111111]">Pamper Your Pet, <br> Because <span
+                <h1 class=" animation adlam font-bold text-3xl lg:text-5xl text-[#111111]">Pamper Your Pet, <br> Because <span
                         class="animate-pulse">They
                         Deserve</span> <br> the Bes</h1>
                 <p class="sora font-medium text-sm  lg:text-lg text-[#111111] opacity-70">Discover a world of treats,
@@ -249,8 +266,7 @@
 
         <!-- Extra section -->
         <section class="w-[90%] max-auto md:w-[90%] mx-auto mt-5">
-            <div class="hero min-h-screen"
-                style="background-image: url(assets/Hero2.jpg);">
+            <div class="hero min-h-screen" style="background-image: url(assets/Hero2.jpg);">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-neutral-content text-center">
                     <div class="max-w-md">
@@ -260,7 +276,9 @@
                             elegance.
                             From gourmet treats to designer accessories—because your pet deserves nothing but the best.
                         </p>
-                        <button class="btn btn-primary btn-sm md:btn-lg bg-yellow-600">Spoil Your Pet Now</button>
+                        <button
+                            class="btn btn-primary btn-sm md:btn-lg bg-yellow-600 hover:bg-yellow-200 hover:text-black transition-all">Spoil
+                            Your Pet Now</button>
                     </div>
                 </div>
             </div>
